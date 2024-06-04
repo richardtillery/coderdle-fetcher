@@ -1,0 +1,15 @@
+{
+    "name": "coderdle-fetcher",
+    "lockfileVersion": 3,
+    "requires": true,
+    "packages": {},
+    "type": "module",
+    "dependencies": {
+        "@aws-sdk/client-sts": "^3.583.0",
+        "mysql": "^2.18.1",
+        "redis": "^4.6.13"
+    },
+    "scripts": {
+        "test": "./scripts/testRunner.sh"
+    }
+}
